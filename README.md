@@ -13,7 +13,7 @@
 - GitHub - https://github.com/
 
 #### Попасть в систему без пароля
-#### папка [boot](https://github.com/serjb1973/boot/blob/main/boot/boot.jpg)
+#### папка [boot](https://github.com/serjb1973/boot/tree/main/boot)
 ### Создание образа
 ```
 vagrant up
