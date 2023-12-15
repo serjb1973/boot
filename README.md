@@ -12,13 +12,13 @@
 ### Аккаунты:
 - GitHub - https://github.com/
 
-#### Попасть в систему без пароля
-#### папка [boot](https://github.com/serjb1973/boot/tree/main/boot)
-## Создание образа
+## Попасть в систему без пароля
+## папка [boot](https://github.com/serjb1973/boot/tree/main/boot)
+#### Создание образа
 ```
 vagrant up
 ```
-## Входим в систему без пароля 
+#### Входим в систему без пароля 
 [boot.jpg](https://github.com/serjb1973/boot/blob/main/boot/boot.jpg)
 ```
 virtualbox
@@ -28,23 +28,23 @@ virtualbox
 2. добавляем init=/bin/sh
 и нажимаем сtrl-x 
 ```
-## Входим в систему без пароля
+#### Входим в систему без пароля
 [boot2.jpg](https://github.com/serjb1973/boot/blob/main/boot/boot2.jpg)
 
-## Меняем пароль root
+#### Меняем пароль root
 ```
 passwd root
 touch /.autorelabel
 ```
-#### Переименовать VG
-#### Добавить модуль в initrd
-#### папка [lvm](https://github.com/serjb1973/boot/tree/main/lvm)
-#### [out.txt](https://github.com/serjb1973/boot/blob/main/lvm/out.txt)
-## Создание образа
+## Переименовать VG
+## Добавить модуль в initrd
+## папка [lvm](https://github.com/serjb1973/boot/tree/main/lvm)
+## [out.txt](https://github.com/serjb1973/boot/blob/main/lvm/out.txt)
+#### Создание образа
 ```
 vagrant up
 ```
-## Переименовать VG, ребутнуться, проверить
+#### Переименовать VG, ребутнуться, проверить
 ```
 vagrant ssh
 sudo su -
@@ -60,7 +60,7 @@ mkinitrd -f -v /boot/initramfs-$(uname -r).img $(uname -r)
 vgs
 shutdown -h 0
 ```
-## Добавить модуль в initrd, ребутнуться, проверить
+#### Добавить модуль в initrd, ребутнуться, проверить
 ```
 vagrant up
 vagrant ssh
