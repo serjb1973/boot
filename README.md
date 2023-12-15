@@ -13,7 +13,8 @@
 - GitHub - https://github.com/
 
 ## Попасть в систему без пароля
-## папка [boot](https://github.com/serjb1973/boot/tree/main/boot)
+#### папка [boot](https://github.com/serjb1973/boot/tree/main/boot)
+
 #### Создание образа
 ```
 vagrant up
@@ -38,8 +39,9 @@ touch /.autorelabel
 ```
 ## Переименовать VG
 ## Добавить модуль в initrd
-## папка [lvm](https://github.com/serjb1973/boot/tree/main/lvm)
-## [out.txt](https://github.com/serjb1973/boot/blob/main/lvm/out.txt)
+#### папка [lvm](https://github.com/serjb1973/boot/tree/main/lvm)
+#### [out.txt](https://github.com/serjb1973/boot/blob/main/lvm/out.txt)
+
 #### Создание образа
 ```
 vagrant up
