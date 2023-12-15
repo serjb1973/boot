@@ -39,7 +39,7 @@ touch /.autorelabel
 #### Переименовать VG
 #### Добавить модуль в initrd
 #### папка [lvm](https://github.com/serjb1973/boot/tree/main/lvm)
-#### out.txt
+#### [out.txt](https://github.com/serjb1973/boot/blob/main/lvm/out.txt)
 ### Создание образа
 ```
 vagrant up
