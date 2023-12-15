@@ -19,8 +19,8 @@
 vagrant up
 ```
 ### Входим в систему без пароля 
+[boot.jpg](https://github.com/serjb1973/boot/blob/main/boot/boot.jpg)
 ```
-boot.jpg
 virtualbox
 на загрузке делаем ctrl+c
 в строке с linux
@@ -29,7 +29,7 @@ virtualbox
 и нажимаем сtrl-x 
 ```
 ### Входим в систему без пароля
-[boot.jpg](\boot\boot.jpg)
+[boot.jpg](https://github.com/serjb1973/boot/blob/main/boot/boot2.jpg)
 
 ### Меняем пароль root
 ```
@@ -78,5 +78,5 @@ exit
 exit
 vagrant halt
 virtualbox
-linux2.jpg
 ```
+[linux2.jpg](https://github.com/serjb1973/lvm/blob/main/lvm/linux2.jpg)
