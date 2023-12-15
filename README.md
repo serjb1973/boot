@@ -38,7 +38,7 @@ touch /.autorelabel
 ```
 #### Переименовать VG
 #### Добавить модуль в initrd
-#### папка lvm
+#### папка [lvm](https://github.com/serjb1973/boot/tree/main/lvm)
 #### out.txt
 ### Создание образа
 ```
