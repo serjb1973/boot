@@ -13,7 +13,7 @@
 - GitHub - https://github.com/
 
 #### Попасть в систему без пароля
-#### папка boot 
+#### папка [boot](https://github.com/serjb1973/boot/blob/main/boot/boot.jpg)
 ### Создание образа
 ```
 vagrant up
@@ -29,7 +29,7 @@ virtualbox
 и нажимаем сtrl-x 
 ```
 ### Входим в систему без пароля
-[boot.jpg](https://github.com/serjb1973/boot/blob/main/boot/boot2.jpg)
+[boot2.jpg](https://github.com/serjb1973/boot/blob/main/boot/boot2.jpg)
 
 ### Меняем пароль root
 ```
@@ -79,4 +79,5 @@ exit
 vagrant halt
 virtualbox
 ```
-[linux2.jpg](https://github.com/serjb1973/lvm/blob/main/lvm/linux2.jpg)
+[linux2.jpg](https://github.com/serjb1973/boot/blob/main/lvm/linux2.jpg)
+
